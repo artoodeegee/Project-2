@@ -1,0 +1,32 @@
+.background    { background: #FAEBD7;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: black; }
+.wall          { background: #556B2F;   }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("image/bone.png");
+          background-size: 12px 12px;}
+.player { background-image: url("image/dino.png");
+          background-size: 30px 30px; }
+.floater { background: #A0522D; }
+.star  { background-image: url("image/meat.gif");
+         background-size: 20px 20px;}
+.raptor { background: black;
+          background-size: 30px 30px;
+}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+   background-image: url("image/dino.png");
+}
+.won .player {
+  box-shadow: -4px -7px 8px green, 4px -7px 8px green;
+}
